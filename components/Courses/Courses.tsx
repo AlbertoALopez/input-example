@@ -32,7 +32,7 @@ const Courses = () => {
           </label>
         )}
       </form>
-      {Object.keys(course).length !== 0 && (
+      {!error && Object.keys(course).length !== 0 && (
         <CourseInfo course={course} />
       )}
     </div>
