@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem 0;
+  box-shadow: 0 0 10px 0 rgb(50 50 50 / 50%);
+  border-radius: .5rem;
+  padding-bottom: .5rem;
+}
+
+.infoRow {
+  display: grid;
+  grid-template-columns: 8rem auto;
+  margin: .1rem 0;
+  padding: .2rem .5rem;
+}
+
+.courseTitle {
+  color: white;
+  padding: .5rem;
+  background-color: darkblue;
+  width: 100%;
+}

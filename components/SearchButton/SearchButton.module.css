@@ -1,0 +1,15 @@
+.searchButton {
+  margin-left: 1rem;
+  align-self: flex-end;
+  border: 2px solid darkblue;
+  color: darkblue;
+  border-radius: 5%;
+  padding: .4rem 1rem;
+}
+
+@media(prefers-color-scheme: dark) {
+  .searchButton {
+    border: 2px solid lightblue;
+    color: lightblue;
+  }
+}

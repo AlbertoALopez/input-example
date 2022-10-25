@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputTitle {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.errorLabel {
+  color: red;
+  margin-top: 1rem;
+  display: block;
+}
+
