@@ -34,6 +34,6 @@ const CourseInfo = (props: CourseInfoProps) => {
       })}
     </div>
   );
-}
+};
 
 export default CourseInfo;

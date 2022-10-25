@@ -11,7 +11,7 @@ interface HomeProps {
 
 const Home = (props: HomeProps) => {
   const { courses } = props;
-  
+
   return (
     <div className={styles.container}>
       <Head>
@@ -39,7 +39,7 @@ const Home = (props: HomeProps) => {
       </footer>
     </div>
   );
-}
+};
 
 export async function getStaticProps() {
   return {
@@ -49,4 +49,4 @@ export async function getStaticProps() {
   };
 }
 
-export default Home
+export default Home;

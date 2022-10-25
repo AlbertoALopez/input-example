@@ -1,7 +1,7 @@
 {
   "extends": "next/core-web-vitals",
-  "semi": true,
-  "trailingComma": "es5",
-  "singleQuote": false,
-  "no-trailing-spaces": "error"
+  "rules": {
+    "semi": 2,
+    "no-trailing-spaces": 2
+  }
 }
