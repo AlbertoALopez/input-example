@@ -1,8 +1,8 @@
 import { useContext, useState } from 'react';
 
 import type { Course } from 'types';
-import { CourseContext } from 'contexts/index';
-import { matchCourse } from 'utils/index';
+import { CourseContext } from 'contexts';
+import { matchCourse } from 'utils';
 
 const useSearch = () => {
   const courses = useContext(CourseContext);

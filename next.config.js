@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/input-example'
-}
+  // disabled for main branch, only for deployment on gh-pages
+  // basePath: '/input-example'
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
